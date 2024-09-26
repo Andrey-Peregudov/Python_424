@@ -6,4 +6,4 @@ def create_task(title, description):
 #Вызов функции
 create_task(title="Задача", description="Утренняя пробежка")
 
-def
+# def load_task(title):
