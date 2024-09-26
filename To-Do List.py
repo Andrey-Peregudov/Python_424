@@ -1,6 +1,6 @@
 #Функция создания задачи
 def create_task(title, description):
-    f = open(f'{title}.txt', 'w')
+    f = open(f'{title}.txt', 'w', encoding='utf-8')
     f.write(f'{description}')
     f.close()
 #Вызов функции
