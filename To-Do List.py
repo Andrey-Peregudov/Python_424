@@ -17,10 +17,6 @@ class ToDo:
                 value = i.split()[1:]
                 d[key] = value
             return d
-
-            # for line in file:
-            #     key, *value = line.split()
-            #     d[key] = value
 #Вызов функции
 create_task = ToDo(title="Задача", description="Утренняя пробежка")
 create_task.create_task()
